@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="SignUp.css">
+     
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="BussinessLogic.js"></script>
+
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <label> Sign Up</label>
+            <div class="inputfields">
+                <form name="formData">
+                    <input type="text" id="userName" placeholder="User Name"  required/>
+                    <input  type="text" id="surname" placeholder="Surname"  required/>
+                    <input  type="text" id="email" placeholder="Email"  required/>
+                    <input  type="text" id="age" placeholder="Age" required/>
+                    <input  type="password" id="password" placeholder="password" required/><br><br>
+                    <button  type="submit" onclick="register()">SignUp</button>  
+                </form>
+                
+            </div>
+        </div>
+        <br>
+        <a class="Login" href="Login.html">Back to Login </a>
+        <br><br>
+    </div>
+</body>
+</html>
